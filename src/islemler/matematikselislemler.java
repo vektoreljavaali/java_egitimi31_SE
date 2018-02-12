@@ -5,6 +5,12 @@ package islemler;
 public class matematikselislemler {
 
 	
+	public static int degisken =5;
+	public int degisken2=5;
+	
+	public final int degismezdeger=23;
+	
+
 	public void topla() {
 		
 	System.out.println("toplam.....:"+(5+2));
@@ -21,7 +27,7 @@ public class matematikselislemler {
 			
 	}
 		
-	public void topla3(int a,int b) {
+	public final void topla3(int a,int b) {
 		int toplam;
 		
 		toplam = a+b;
